@@ -21,11 +21,11 @@ A microservices architecture takes this same approach and extends it to the loos
 
 ## Pros and Cons of microservices
 ### Pros
- #### Easy Development:
+ - Easy Development:
  As the constituent services are small, they can be built by one or more small teams from the beginning separated by service boundaries which make it easier to scale up the development effort if need be
- #### Easy deployed :
+- Easy deployed :
   Once developed, these services can also be deployed independently
-#### Versatile :
+- Versatile :
 Microservices allow for the use of different technologies and languages.
-#### Easy to integrate ans Scale with thirdpatry application
-#### Easy Maintenance is simpler and cheaper
+- Easy to integrate ans Scale with thirdpatry application
+- Easy Maintenance is simpler and cheaper
