@@ -29,3 +29,25 @@ A microservices architecture takes this same approach and extends it to the loos
 Microservices allow for the use of different technologies and languages.
 - Easy to integrate ans Scale with thirdpatry application
 - Easy Maintenance is simpler and cheaper
+-     Because each microservice can be developed and deployed independently, applications can be up and running quickly
+
+### Cons
+ - Increased effort for operations, deployment and monitoring.
+ - Transaction safety. 
+ - Decreased Performance:
+ - Distributed deployment and process flows can create complicated testing
+ - Increasing number of services can result in information barriers  The architecture brings additional complexity as the developers must
+   implement fault tolerance, mitigate network latency, and deal with a variety of message formats as well as load balancing
+ - In addition to several complexities of an existing monolithic architecture, the developers have to deal with the additional complexity
+   of a distributed system
+ - Handling use cases that span more than one service without using distributed transactions is not only tough but also requires  
+   communication and cooperation between different teams
+ - Partitioning the application into microservices is very much an art
+
+
+
+## How to break a Monolith into Microservices
+### Warm Up with a Simple and Fairly Decoupled Capability
+### Minimize Dependency Back to the Monolith
+### Decouple Vertically and Release the Data Early
+### Split Sticky Capabilities Early
